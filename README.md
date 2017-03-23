@@ -2,5 +2,5 @@
 XTC_ChainKit
 
 ```
-pod 'XTCChainKit', '~> 0.3.1'
+pod 'XTCChainKit'
 ```
