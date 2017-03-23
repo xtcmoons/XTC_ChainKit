@@ -42,6 +42,7 @@
 		05CC88061E8418940005A35A = {
 			isa = PBXGroup;
 			children = (
+				05CC88311E84378D0005A35A /* Classes */,
 				05CC88111E8418940005A35A /* XTC_ChainKit */,
 				05CC88101E8418940005A35A /* Products */,
 			);
@@ -77,6 +78,21 @@
 				05CC88131E8418940005A35A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05CC88311E84378D0005A35A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				05CC88321E84378D0005A35A /* UIKit+Chain */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		05CC88321E84378D0005A35A /* UIKit+Chain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIKit+Chain";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
