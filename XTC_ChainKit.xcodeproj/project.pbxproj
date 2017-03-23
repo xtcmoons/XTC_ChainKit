@@ -13,7 +13,6 @@
 		05CC881D1E8418940005A35A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CC881B1E8418940005A35A /* Main.storyboard */; };
 		05CC881F1E8418940005A35A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CC881E1E8418940005A35A /* Assets.xcassets */; };
 		05CC88221E8418940005A35A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CC88201E8418940005A35A /* LaunchScreen.storyboard */; };
-		05CC882D1E8419530005A35A /* UIView+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC882C1E8419530005A35A /* UIView+Chain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +26,6 @@
 		05CC881E1E8418940005A35A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05CC88211E8418940005A35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05CC88231E8418940005A35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05CC882B1E8419530005A35A /* UIView+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Chain.h"; sourceTree = "<group>"; };
-		05CC882C1E8419530005A35A /* UIView+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Chain.m"; sourceTree = "<group>"; };
-		05CC882E1E841A560005A35A /* XTCChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCChain.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +42,7 @@
 		05CC88061E8418940005A35A = {
 			isa = PBXGroup;
 			children = (
+				05CC882F1E8436550005A35A /* Classes */,
 				05CC88111E8418940005A35A /* XTC_ChainKit */,
 				05CC88101E8418940005A35A /* Products */,
 			);
@@ -62,7 +59,6 @@
 		05CC88111E8418940005A35A /* XTC_ChainKit */ = {
 			isa = PBXGroup;
 			children = (
-				05CC88291E8419080005A35A /* Classes */,
 				05CC88151E8418940005A35A /* AppDelegate.h */,
 				05CC88161E8418940005A35A /* AppDelegate.m */,
 				05CC88181E8418940005A35A /* ViewController.h */,
@@ -84,20 +80,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		05CC88291E8419080005A35A /* Classes */ = {
+		05CC882F1E8436550005A35A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				05CC882A1E8419080005A35A /* UIKit+Chain */,
+				05CC88301E8436550005A35A /* UIKit+Chain */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		05CC882A1E8419080005A35A /* UIKit+Chain */ = {
+		05CC88301E8436550005A35A /* UIKit+Chain */ = {
 			isa = PBXGroup;
 			children = (
-				05CC882E1E841A560005A35A /* XTCChain.h */,
-				05CC882B1E8419530005A35A /* UIView+Chain.h */,
-				05CC882C1E8419530005A35A /* UIView+Chain.m */,
 			);
 			path = "UIKit+Chain";
 			sourceTree = "<group>";
@@ -173,7 +166,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05CC882D1E8419530005A35A /* UIView+Chain.m in Sources */,
 				05CC881A1E8418940005A35A /* ViewController.m in Sources */,
 				05CC88171E8418940005A35A /* AppDelegate.m in Sources */,
 				05CC88141E8418940005A35A /* main.m in Sources */,
