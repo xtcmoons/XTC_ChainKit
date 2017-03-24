@@ -10,6 +10,6 @@
 #define XTCChain_h
 
 #import "UIView+Chain.h"
-
+#import "UILabel+Chain.h"
 
 #endif /* XTCChain_h */

@@ -22,10 +22,12 @@
     view.xtc_frame(100, 100, 100, 100)
         .xtc_backgroundColor([UIColor redColor])
         .xtc_size(300, 300);
-    self.view.xtc_addSubview(view);
 
     UILabel *label = [[UILabel alloc] init];
-    label.xtc_frame(100, 100, 100, 100).xtc_backgroundColor([UIColor redColor]);
+    label.xtc_backgroundColor([UIColor redColor])
+        .xtc_size(300, 300);
+
+    self.view.xtc_addSubview(label);
 }
 
 
