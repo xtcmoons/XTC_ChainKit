@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+NS_ASSUME_NONNULL_BEGIN
 @interface UILabel (Chain)
 
 - (UILabel *(^)(NSInteger numberOfLines))xtc_numberOfLines;
@@ -26,3 +27,4 @@
 - (UILabel *(^)(UIFont *font))xtc_font;
 
 @end
+NS_ASSUME_NONNULL_END

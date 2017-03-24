@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		051708C61E84C767000960D1 /* UILabel+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 051708C51E84C767000960D1 /* UILabel+Chain.m */; };
+		051708C91E84E37C000960D1 /* UIControl+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 051708C81E84E37C000960D1 /* UIControl+Chain.m */; };
+		051708CC1E84E555000960D1 /* UIButton+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 051708CB1E84E555000960D1 /* UIButton+Chain.m */; };
 		05CC88141E8418940005A35A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC88131E8418940005A35A /* main.m */; };
 		05CC88171E8418940005A35A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC88161E8418940005A35A /* AppDelegate.m */; };
 		05CC881A1E8418940005A35A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC88191E8418940005A35A /* ViewController.m */; };
@@ -20,6 +22,10 @@
 /* Begin PBXFileReference section */
 		051708C41E84C767000960D1 /* UILabel+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Chain.h"; sourceTree = "<group>"; };
 		051708C51E84C767000960D1 /* UILabel+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Chain.m"; sourceTree = "<group>"; };
+		051708C71E84E37C000960D1 /* UIControl+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Chain.h"; sourceTree = "<group>"; };
+		051708C81E84E37C000960D1 /* UIControl+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Chain.m"; sourceTree = "<group>"; };
+		051708CA1E84E555000960D1 /* UIButton+Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Chain.h"; sourceTree = "<group>"; };
+		051708CB1E84E555000960D1 /* UIButton+Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Chain.m"; sourceTree = "<group>"; };
 		05CC880F1E8418940005A35A /* XTC_ChainKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTC_ChainKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05CC88131E8418940005A35A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		05CC88151E8418940005A35A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,11 +104,15 @@
 		05CC88321E84378D0005A35A /* UIKit+Chain */ = {
 			isa = PBXGroup;
 			children = (
+				05CC88351E8438430005A35A /* XTCChain.h */,
 				05CC88331E8438430005A35A /* UIView+Chain.h */,
 				05CC88341E8438430005A35A /* UIView+Chain.m */,
+				051708C71E84E37C000960D1 /* UIControl+Chain.h */,
+				051708C81E84E37C000960D1 /* UIControl+Chain.m */,
 				051708C41E84C767000960D1 /* UILabel+Chain.h */,
 				051708C51E84C767000960D1 /* UILabel+Chain.m */,
-				05CC88351E8438430005A35A /* XTCChain.h */,
+				051708CA1E84E555000960D1 /* UIButton+Chain.h */,
+				051708CB1E84E555000960D1 /* UIButton+Chain.m */,
 			);
 			path = "UIKit+Chain";
 			sourceTree = "<group>";
@@ -181,8 +191,10 @@
 				05CC88361E8438430005A35A /* UIView+Chain.m in Sources */,
 				05CC881A1E8418940005A35A /* ViewController.m in Sources */,
 				05CC88171E8418940005A35A /* AppDelegate.m in Sources */,
+				051708C91E84E37C000960D1 /* UIControl+Chain.m in Sources */,
 				05CC88141E8418940005A35A /* main.m in Sources */,
 				051708C61E84C767000960D1 /* UILabel+Chain.m in Sources */,
+				051708CC1E84E555000960D1 /* UIButton+Chain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

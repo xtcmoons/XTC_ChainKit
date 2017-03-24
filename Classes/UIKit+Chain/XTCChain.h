@@ -11,5 +11,6 @@
 
 #import "UIView+Chain.h"
 #import "UILabel+Chain.h"
+#import "UIButton+Chain.h"
 
 #endif /* XTCChain_h */
